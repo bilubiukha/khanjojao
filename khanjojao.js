@@ -89,8 +89,8 @@ async function loadCss(url) {
 // Função para modificar as questões (spoof)
 function spoofQuestion() {
     const phrases = [
-        "❓ Made by jojao",
-        "🏂 Made by marcos10pc"
+        "❓ Made by Myoko.",
+        "🏂 Made by Rdzin69"
     ];
 
     const originalFetch = window.fetch;
@@ -199,7 +199,7 @@ loadCss('https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css');
 
 // Carrega o Toastify e inicia as funcionalidades
 loadScript('https://cdn.jsdelivr.net/npm/toastify-js').then(async () => {
-    sendToast("🏢 semen injetado com sucesso!", 5000, 'bottom');
+    sendToast("🏢 Innovation Khan injetado com sucesso!", 5000, 'bottom');
     spoofQuestion();
     console.clear();
 

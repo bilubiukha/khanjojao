@@ -89,8 +89,8 @@ async function loadCss(url) {
 // Função para modificar as questões (spoof)
 function spoofQuestion() {
     const phrases = [
-        "❓ Made by Myoko.",
-        "🏂 Made by Rdzin69"
+        "❓ Made by jojao.",
+        "🏂 Made by jojao"
     ];
 
     const originalFetch = window.fetch;
